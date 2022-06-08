@@ -1,0 +1,85 @@
+html, body {
+    margin: 2% 2% 2% 1%;
+    padding: 0;
+        background: #414042;
+
+}
+
+.upper {
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(
+  305deg,
+  hsl(240deg 100% 10%) 0%,
+  hsl(251deg 40% 24%) 56%,
+  hsl(265deg 27% 37%) 70%,
+  hsl(278deg 22% 51%) 78%,
+  hsl(290deg 31% 66%) 84%,
+  hsl(303deg 62% 82%) 88%,
+  hsl(320deg 33% 67%) 91%,
+  hsl(332deg 20% 51%) 94%,
+  hsl(341deg 22% 36%) 96%,
+  hsl(349deg 25% 22%) 98%,
+  hsl(0deg 39% 9%) 100%
+);
+    padding: 50px 50px 25px 50px;
+}
+
+.lower {
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    background: #1F2937;
+    color: #fff;
+    padding: 10px 50px;
+}
+
+.unit {
+    margin-top: 25px;
+}
+
+.He h1 {
+    margin: 0 0 20px 0;
+}
+
+.He p {
+    font-size: 128px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+#conversion {
+    margin: 10px 0 30px 0;
+}
+
+.input-btn {
+    max-width: 150px;
+    height: 13px;
+    margin: 0 auto;
+    background: rgb(5, 31, 47);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 1px solid white;
+}
+#input-btn2 {
+    max-width: 200px;
+    margin: 0 auto;
+    background: lightskyblue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 1px solid white;
+}
+#inl {
+     display: inline;
+}
+
+#input-btn:hover {
+    transform: scale(1.03);
+}
